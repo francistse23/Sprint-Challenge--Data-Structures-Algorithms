@@ -8,8 +8,6 @@ def heapsort(arr):
     sorted_list.append(heap.delete())
   return sorted_list[::-1]
 
- 
-
 class Heap:
   def __init__(self):
     self.storage = []
